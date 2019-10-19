@@ -1,0 +1,30 @@
+{
+  "name": "requirex-ui",
+  "version": "0.1.0",
+  "description": "RequireX user interface popup dialog",
+  "main": "dist/index.js",
+  "browser": "dist/index.min.js",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "cd src && tsc --watch"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/requirex/requirex-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/requirex/requirex-ui/issues"
+  },
+  "homepage": "https://github.com/requirex/requirex-ui#readme",
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "requirex": "^0.1.5",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@lib/tar": "^0.1.0",
+    "@lib/zip": "^0.1.0"
+  }
+}
